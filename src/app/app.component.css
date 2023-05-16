@@ -1,3 +1,12 @@
+.body{
+  width: 100%;
+  height: 1000px;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column ;
+}
 .contenido-principal{
   width: 100%;
   height: 100%;
@@ -5,9 +14,60 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column ;
 }
 .img-tec{
   width: 300px;
   height: 300px;
+}
+.contenedor-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px !important;
+}
+.contenedor-titulos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px !important;
+}
+.contenedor-elementos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px !important;
+}
+.titulo-1{
+  font-family: 'candy', 'arial', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 78px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.titulo-2{
+  font-family:  'arial', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+.contenedor-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-beca{
+  width: 150px;
+  height: 50px;
+  color: white;
+  background-color: rgb(241, 155, 6);
+  border: 1px solid rgb(237, 148, 15);
+}
+.swal2-confirm{
+  width: 100px !important;
+  height: 50px !important;
 }
